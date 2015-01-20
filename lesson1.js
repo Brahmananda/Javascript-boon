@@ -1,8 +1,4 @@
-/**
- * New node file
- */
- 
- 
+
  // 1.Reversing String
  
 var str="Brahmananada";
@@ -18,7 +14,6 @@ var ss="Brahma123nana2231da";
 var _forEach =Array.prototype.forEach;
 var _map =Array.prototype.map;
 var _filter =Array.prototype.filter;
-//console.log(_forEach);
 var kk=_filter.call(ss,function(ele){
 	return !isNaN(ele);	
 });
@@ -49,7 +44,6 @@ var list = ['Delta', 'alpha', 'CHARLIE', 'bravo'];
 var map = list.map(function(e, i) {
   return { index: i, value: e.toLowerCase() };
 })
-
 // sorting the map containing the reduced values
 map.sort(function(a, b) {
   return a.value > b.value ? 1 : -1;
@@ -57,7 +51,6 @@ map.sort(function(a, b) {
 var result = map.map(function(e){
   return list[e.index];
 });
-
 console.log(result);
 
 
